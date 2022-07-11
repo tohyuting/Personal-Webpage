@@ -14,7 +14,7 @@
 ul.navBar > li > a {
     color:rgba(255, 255, 255, 0.962);
     display: block;
-    float: left;
+    float: right;
     text-align: center;
     padding: 14px 16px;
 }
@@ -22,14 +22,6 @@ ul.navBar > li > a {
 .mainContent {
     padding-top: 50px;
     padding-bottom: 80px;
-}
-
-ul.FooterList > li > a {
-    color:rgba(255, 255, 255, 0.962);
-    display: block;
-    float: left;
-    text-align: center;
-    padding: 14px 16px;
 }
 
 .footer {
@@ -42,23 +34,25 @@ ul.FooterList > li > a {
     bottom: 0;
     left:0;
     width: 100%;
-    height: 80px;
+    height: 100px;
     margin-top: -80px;
+}
+
+#email, #github, #linkedin {
+    padding-right: 10px;
 }
 
 .footerText {
     text-align: center;
     color: white;
+    padding: 0;
+    vertical-align: top;
 }
 
 .footerIcons {
     color: white;
     text-align: center;
-}
-
-.breakItem {
-    flex-basis: 100%;
-    height: 0;
+    vertical-align: top;
 }
 
 body {
