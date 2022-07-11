@@ -6,7 +6,9 @@
     background-color: rgba(36, 29, 29);
     position: fixed;
     top: 0;
+    left:0;
     width: 100%;
+    height: 50px;
 }
 
 ul.navBar > li > a {
@@ -15,6 +17,48 @@ ul.navBar > li > a {
     float: left;
     text-align: center;
     padding: 14px 16px;
+}
+
+.mainContent {
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+
+ul.FooterList > li > a {
+    color:rgba(255, 255, 255, 0.962);
+    display: block;
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+.footer {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(36, 29, 29);
+    position: fixed;
+    bottom: 0;
+    left:0;
+    width: 100%;
+    height: 80px;
+    margin-top: -80px;
+}
+
+.footerText {
+    text-align: center;
+    color: white;
+}
+
+.footerIcons {
+    color: white;
+    text-align: center;
+}
+
+.breakItem {
+    flex-basis: 100%;
+    height: 0;
 }
 
 body {
