@@ -1,0 +1,71 @@
+.navBar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(58, 47, 47);
+    position: fixed;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 50px;
+}
+
+ul.navBar > li > a {
+    color:rgba(255, 255, 255, 0.962);
+    display: block;
+    float: right;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.navBar > li > a:hover {
+    color:white;
+    background-color: black;
+    display: block;
+    float: right;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.mainContent {
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+
+.footer {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(58, 47, 47);
+    position: fixed;
+    bottom: 0;
+    left:0;
+    width: 100%;
+    height: 100px;
+    margin-top: -80px;
+}
+
+#email, #github, #linkedin {
+    padding-right: 10px;
+}
+
+.footerText {
+    text-align: center;
+    color: white;
+    padding: 0;
+    vertical-align: top;
+}
+
+.footerIcons {
+    color: white;
+    text-align: center;
+    vertical-align: top;
+}
+
+body {
+    font-family: 'Open Sans';
+}
