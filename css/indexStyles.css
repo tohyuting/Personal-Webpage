@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgba(36, 29, 29);
+    background-color: rgb(58, 47, 47);
     position: fixed;
     top: 0;
     left:0;
@@ -13,6 +13,16 @@
 
 ul.navBar > li > a {
     color:rgba(255, 255, 255, 0.962);
+    display: block;
+    float: right;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.navBar > li > a:hover {
+    color:white;
+    background-color: black;
     display: block;
     float: right;
     text-align: center;
@@ -30,7 +40,7 @@ ul.navBar > li > a {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgba(36, 29, 29);
+    background-color: rgb(58, 47, 47);
     position: fixed;
     bottom: 0;
     left:0;
