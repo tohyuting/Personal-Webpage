@@ -33,6 +33,26 @@ ul.navBar > li > a:hover {
 .mainContent {
     padding-top: 50px;
     padding-bottom: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sideProfile {
+    padding-top: 50px;
+    padding-bottom: 80px;
+    margin-right: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.verticalLine {
+    border-left: 1px solid grey;
+    height: 250px;
+    padding-right: 50px;
 }
 
 .footer {
